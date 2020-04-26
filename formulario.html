@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+
+        <label for="direccion">¿De dónde sos?</label> <br><br>
+        <select name="direccion" id="Maipu">
+        <option value="Maipu">Maipú</option>
+        <option value="Lujan">Luján de Cuyo</option>
+        <option value="GC">Godoy Cruz</option>
+        <option value="Cdad">Ciudad</option>
+        </select>
+        <br><br>
+        
+        <label for="iluminacion">¿Qué te pareció la iluminación?</label> <br><br>
+        
+        <input type="checkbox" name="iluminacion" value="acorde">Muy acorde <br>
+        <input type="checkbox" name="iluminacion" value="buena">Buena pero podría mejorar<br>
+        <input type="checkbox" name="iluminacion" value="mala">Mala <br><br>
+        
+        <label for="plato">¿Qué tipo de plato fue el que más te gustó?</label> <br><br>
+        <input type="checkbox" name="plato" value="entrada">Entrada <br>
+        <input type="checkbox" name="plato" value="principal">Plato principal<br>
+        <input type="checkbox" name="plato" value="postre">Postres<br>
+        <input type="checkbox" name="plato" value="otros">Otros <br><br>
+        
+        <label for="recomendacion">¿Recomendarías el lugar? </label> <br><br>
+        <input type="radio">Sí
+        <input type="radio">No <br><br>
+        
+        <label for="recomendacion">¿Por qué? </label> <br><br>
+        <textarea name="recomendacion" id="" cols="70" rows="10"></textarea>
+        
+        <p>Dejanos tus datos y nos ponemos en contacto con vos</p>
+
+        <label for="nobre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" name="email" id="email">
+
+        <br>    
+        <br>
+        <input type="Submit"> <input type="reset">
+        <p><a href="index.html">Regresar a la carta</a></p>
+        </form>
+</body>
+</html>
