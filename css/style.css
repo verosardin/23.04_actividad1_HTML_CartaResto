@@ -83,3 +83,32 @@ margin-left: 20px;
 #entrada{
 margin-top: 0px;
 }
+
+#formulario{
+width: 50%;
+margin: auto;
+border-left: solid 1px yellow;
+border-right: solid 1px yellow;
+}
+
+#divformulario{
+background-color: rgb(229, 231, 233);
+padding-left: 30px;
+}
+
+label{
+font-weight: bold;
+}
+
+.botonespersonalizados{
+background-color: orange;
+color: white;
+padding: 5px 100px;
+border: solid 1px orange;
+border-radius: 6px;
+}
+
+.botonespersonalizados:hover{
+background-color: white;
+color: orange;
+}

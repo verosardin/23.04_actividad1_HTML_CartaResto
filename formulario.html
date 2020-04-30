@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
-    <h1>Formulario</h1>
-    <form action="">
-
+<body id="formulario">
+     <form action="">
+    <div id="divformulario">
         <label for="direccion">¿De dónde sos?</label> <br><br>
         <select name="direccion" id="Maipu">
+        <option value="" selected disabled hidden>Selecciona una opción</option>
         <option value="Maipu">Maipú</option>
         <option value="Lujan">Luján de Cuyo</option>
         <option value="GC">Godoy Cruz</option>
@@ -37,20 +37,21 @@
         <input type="radio">No <br><br>
         
         <label for="recomendacion">¿Por qué? </label> <br><br>
-        <textarea name="recomendacion" id="" cols="70" rows="10"></textarea>
-        
-        <p>Dejanos tus datos y nos ponemos en contacto con vos</p>
+        <textarea name="recomendacion" id="" cols="70" rows="10"></textarea><br><br>
+       
+        <label for="comentarios">Dejanos tus datos y nos ponemos en contacto con vos</label><br><br>
 
         <label for="nobre">Nombre</label>
-        <input type="text" name="nombre" id="nombre">
+        <input type="text" name="nombre" id="nombre" placeholder="tu nombre"><br>
         <br>
         <label for="mail">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" placeholder="tu mail">
 
         <br>    
         <br>
-        <input type="Submit"> <input type="reset">
+        <input type="Submit" class="botonespersonalizados"> <input type="reset" class="botonespersonalizados">
         <p><a href="index.html">Regresar a la carta</a></p>
+    </div>
         </form>
 </body>
 </html>
